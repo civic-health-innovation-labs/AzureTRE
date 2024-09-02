@@ -7,3 +7,4 @@ services:
       context: .
     volumes:
       - ./:/AzureTRE/
+    command: tail -F /dev/null
