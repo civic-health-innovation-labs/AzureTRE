@@ -4,6 +4,6 @@ services:
   devcont:
     build:
       dockerfile: .devcontainer/Dockerfile
-      context: .devcontainer
+      context: .
     volumes:
       - ./:/AzureTRE/
