@@ -6,7 +6,7 @@ ARG TARGETPLATFORM="linux/amd64"
 FROM --platform="${TARGETPLATFORM}" mcr.microsoft.com/vscode/devcontainers/python:dev-${VARIANT}-bullseye
 
 # This will be set to true when running in VSCode
-ARG INTERACTIVE="false"
+ARG INTERACTIVE="true"
 
 ARG USER_UID=1000
 ARG USERNAME=vscode
