@@ -35,6 +35,10 @@ custom:
         sku: winserver-2019
         version: latest
       conda_config: true
+    # Custom image (Windows 11 with R and Python)
+    "Windows 11 DSVM RPython":
+      source_image_name: imgdef-windows11-dsvm-rpython
+      conda_config: true
     # For information on using custom images, see README.me in the guacamole/user-resources folder
     # "Custom Image From Gallery":
     #   source_image_name: your-image
